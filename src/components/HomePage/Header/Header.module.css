@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 86px auto 20px auto;
+    width: 600px;
+    height: 200px;
+}
+
+@media (max-width: 1280px) {
+    
+}
+
+@media (max-width: 568px) {
+    .logo{
+        width: 80%;
+        height: 70%;
+    }
+}

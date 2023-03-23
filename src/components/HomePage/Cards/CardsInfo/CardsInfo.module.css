@@ -1,0 +1,118 @@
+.cardsInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.btnItem {
+    display: flex;
+    position: absolute;
+    left: 54px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.backBtn {
+    background: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    margin-right: 12px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.btnTitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.userItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 415px;
+    margin: 76px auto;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+.userName {
+    text-align: center;
+    color: #081F32;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 1px;
+}
+
+.userInfo {
+    color: #081F32;
+    width: 415px;
+    text-align: left;
+    height: 320px;
+}
+
+.infoTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #8E8E93;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.infoItem {
+    border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+}
+
+.itemTitle {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.itemValue {
+    color: #8E8E93;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* forget about responsive */
+@media (max-width: 360px) {
+    .cardsInfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 76px auto;
+    }
+    .backBtn {
+        background: none;
+        border: none;
+        height: 46px;
+        width: 46px;
+        margin-right: 12px;
+        line-height: 21px;
+        cursor: pointer;
+    }
+    
+    .btnTitle {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 21px;
+        color: #000000;
+        text-decoration: none;
+    }
+}
